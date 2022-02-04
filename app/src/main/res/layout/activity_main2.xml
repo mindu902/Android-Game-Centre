@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <fall18_207project.SlidingTile.GestureDetectGridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        tools:context="fall18_207project.GameCenter.fall18_207project.SlidingTile.GameActivity"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </fall18_207project.SlidingTile.GestureDetectGridView>
+
+    <Button
+        android:id="@+id/UndoButton"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="3 Steps Undo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/NumofStep"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="N Steps"
+        android:inputType="text|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/UndoNStep"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="16dp"
+        android:text="Undo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/NumofStep" />
+
+</android.support.constraint.ConstraintLayout>

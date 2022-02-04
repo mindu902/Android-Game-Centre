@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fall18_207project.Simon.SimonLevelChooseActivity">
+
+    <Button
+        android:id="@+id/SimonMediumButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/medium"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/SimonHardButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/hard"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SimonMediumButton" />
+
+    <Button
+        android:id="@+id/SimonSuperHardButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="92dp"
+        android:text="@string/super_hard"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SimonHardButton" />
+
+    <Button
+        android:id="@+id/simonScoreBoardButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="92dp"
+        android:text="ScoreBoard"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SimonSuperHardButton" />
+</android.support.constraint.ConstraintLayout>
