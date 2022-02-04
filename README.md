@@ -1,5 +1,5 @@
 # Android-Game-Centre
-- Open Android GameCenter in Android Studio.
+- Open GameCenter in Android Studio.
 - Run the whole app file.
 - Choose your available virtual device.
 - Choose Login in application of your virtual device.
